@@ -7,7 +7,7 @@ function SignUp ({ setFlag }) {
 
   return (
     <div>
-      <h1>sign up</h1>
+      <h1 className='title'>sign up</h1>
 
       <div className='container'>
         <form onSubmit={handleSubmit}>
@@ -61,9 +61,9 @@ function SignUp ({ setFlag }) {
             )}
           </div>
 
-          <button type='submit'>sign up</button>
+          <button className='btn' type='submit'>sign up</button>
 
-          <div>
+          <div className='have-account-div'>
             <label htmlFor='login'>already have an account ? {''}</label>
             <a name='login' onClick={() => setFlag(false)}>
               login here

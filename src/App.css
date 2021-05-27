@@ -1,38 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 0, 225, 0.8),
+    rgba(77, 0, 255, 0.05)
+  );
+
+  height: 112vh;
+  font-family: "Mate SC", serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  color: rgba(112, 3, 214, 0.822);
+  height: 100px;
+  padding: 20px;
+  font-size: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border: 3px solid rgba(128, 15, 118, 0.288);
+  max-width: 70%;
+  width: 29rem;
+}
+
+label {
+  font-size: 19px;
+  font-weight: 300;
+}
+
+input {
+  padding: 1px;
+  margin: 10px;
+  border: 3px solid rgba(243, 6, 223, 0.616);
+  border-radius: 5px;
+  height: 25px;
+  transition: 0.5s ease-out;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.name-div {
+  padding: 0 7px;
+  margin: 6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.email-div {
+  padding: 0 7px;
+  margin: 6px;
+}
+
+.password-div {
+  padding: 7px;
+  margin: 6px;
+}
+
+.password2-div {
+  padding: 7px;
+  margin: 6px;
+}
+
+.have-account-div {
+  padding: 7px;
+}
+
+.btn {
+  margin: 15px;
+  width: 120px;
+  font-size: 19px;
+  height: 43px;
+  color: rgb(255, 0, 255);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s ease-out;
+  border: 3px solid rgba(128, 15, 118, 0.288);
+  font-family: "Mate SC", serif;
+}
+
+.btn:hover {
+  border: 3px solid rgba(128, 15, 119, 0.733);
+}
+
+a {
+  cursor: pointer;
+  color: rgba(112, 3, 214, 0.822);
+  transition: 0.5s ease-out;
+}
+
+a:hover {
+  color: rgba(132, 6, 182, 0.822);
 }

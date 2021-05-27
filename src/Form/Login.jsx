@@ -8,7 +8,7 @@ function Login ({ setFlag }) {
 
   return (
     <div>
-      <h1>login</h1>
+      <h1 className='title'>login</h1>
 
       <div className='container'>
         <form onSubmit={handleSubmit}>
@@ -26,7 +26,7 @@ function Login ({ setFlag }) {
             {error.password && <p style={{color:'red'}}>{error.password}</p>}
           </div>
 
-          <button type='submit'>login</button>
+          <button className='btn' type='submit'>login</button>
 
           <div>
             <label htmlFor='register'>no account ? {''}</label>
