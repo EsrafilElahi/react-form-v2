@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
 * {
   margin: 0;
@@ -18,7 +18,7 @@ body {
   );
 
   height: 112vh;
-  font-family: "Mate SC", serif;
+  font-family: 'IM Fell English SC', serif;
 }
 
 .title {
