@@ -87,7 +87,8 @@ input {
 }
 
 .btn {
-  margin: 15px;
+  margin: 12px;
+  margin-bottom: 15px;
   width: 120px;
   font-size: 19px;
   height: 43px;
